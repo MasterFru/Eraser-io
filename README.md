@@ -32,8 +32,8 @@ Follow these steps to get started with the Eraser.io clone project.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/eraser-clone.git
-   cd eraser-clone
+   git clone https://github.com/your-username/Eraser-io.git
+   cd Eraser-io
    ```
 
 2. **Install Dependencies**:
