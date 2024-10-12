@@ -44,8 +44,14 @@ Follow these steps to get started with the Eraser.io clone project.
 3. **Environment Variables**:
    Set up environment variables for **Kinde** and **Convex** in `.env.local`:
    ```plaintext
-   NEXT_PUBLIC_KINDE_DOMAIN=your-kinde-domain
-   NEXT_PUBLIC_CONVEX_URL=your-convex-url
+   # Convex Configuration
+   CONVEX_DEPLOYMENT=dev:<your-convex-deployment-id> # example: dev:artful-bear-195
+   NEXT_PUBLIC_CONVEX_URL=<your-convex-url>
+
+   # Kinde Configuration
+   KINDE_CLIENT_ID=<your-kinde-client-id>
+   KINDE_CLIENT_SECRET=<your-kinde-client-secret>
+   KINDE_ISSUER_URL=<your-kinde-issuer-url>
    ```
 
 4. **Run the App**:
